@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /* this make the content center */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+}
+
+#count-box {
+  /* adding few looks to it */
+  background-color: #ffffff0f;
+  padding: 15% 10%;
+  border-radius: 3rem;
+}
+
+#countLabel {
+  /* counting the numbers and style */
+  text-align: center;
+  font-size: 10rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2rem;
+}
+
+.count-btn {
+  /* make sure that btn are arrage in row */
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+/* give few touches to btn */
+#decreaseBtn {
+  padding: 5% 20%;
+  cursor: pointer;
+  border-radius: 50rem;
+  border: none;
+  text-transform: capitalize;
+}
+
+#resetBtn {
+  padding: 5% 20%;
+  cursor: pointer;
+  border-radius: 50rem;
+  border: none;
+  text-transform: capitalize;
+}
+
+#increaseBtn {
+  padding: 5% 20%;
+  cursor: pointer;
+  border-radius: 50rem;
+  border: none;
+  text-transform: capitalize;
+}
